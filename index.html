@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Entry Page</title>
+    <!-- Add CSS for 3D effects -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .landing-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        /* Add your 3D effects styles here */
+    </style>
+</head>
+<body>
+    <!-- Landing page content with 3D effects -->
+    <div class="landing-container">
+        <!-- Your 3D visualized pictures go here -->
+        <img src="assets/images/pic1.jpg" alt="3D Image">
+        <h1>Welcome to My Portfolio</h1>
+    </div>
+
+    <!-- JavaScript for redirection after a certain time -->
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "main.html"; // Replace with your main page URL
+            }, 2000); // Redirect after 5 seconds (adjust time as needed)
+        }
+    </script>
+</body>
+</html>
